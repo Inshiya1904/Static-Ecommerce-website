@@ -1,0 +1,321 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body{
+  background-color: rgb(211, 211, 208);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0px 2px 2px 2px rgb(180, 176, 176);
+}
+.logo{
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.list-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 10px;
+
+}
+.list-name li{
+  margin: auto 10px;
+  
+}
+ul li a{
+  margin-inline: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+
+}
+ul li a:hover{
+ border-bottom: 2px solid black;
+ cursor: pointer;
+}
+
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+
+}
+.main .main-text{
+  margin-top: 100px;
+}
+.main-text h1{
+  font-size: 44px;
+}
+.main-text .top{
+  color: rgb(3, 190, 190);
+}
+.main-text p{
+  margin-top: 12px;
+}
+.main-text button{
+  width: 140px;
+  height: 40px;
+  background-color: rgb(3, 190, 190);
+  border: none;
+  font-size: 22px;
+  color: white;
+  margin-top: 25px;
+}
+.main-text button:hover{
+  border: 2px solid  rgb(3, 190, 190);
+  background-color: transparent;
+  color: rgb(3, 156, 156);
+}
+
+.head span{
+  color: rgb(3, 190, 190);
+}
+
+.head h1{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.card .crd{
+  width: 320px;
+  height: 500px;
+  background-color: white;
+  margin-inline: 10px;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.card .crd:hover{
+  transition: 3s;
+}
+
+.crd img{
+ width: 100%;
+ border-radius: 10px;
+}
+.crdText{
+  padding: 10px;  
+}
+.crdText button{
+  width: 130px;
+  height: 30px;
+  border: none;
+  background-color: rgb(3, 190, 190);
+  color: white;
+  font-size: 19px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.crdText i{
+  color: rgb(214, 150, 13);
+}
+.blog{
+  display: flex;
+  justify-content: center;
+  width: 550px;
+  height: 350px;
+  background-color: white;
+  margin-inline: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.blog:hover{
+  transition: 0.6s ease;
+  width: 570;
+  height: 370;
+}
+.blog img{
+  width: 85%;
+}
+.blogText{
+  padding: 20px;
+  margin-top: 30px;
+
+}
+.blogText a{
+  width: 130px;
+  padding: 4px;
+  height: 20px;
+  background-color: rgb(4, 179, 179);
+  color: white;
+  font-size: 18px;
+  top: 10px;
+  position: relative;
+  border-radius: 5px;
+}
+.blogText p{
+  margin: 10px 0;
+}
+.letter{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 40px;
+}
+.inp{
+  margin-top: 10px;
+  display: flex;
+}
+.inp input{
+  width: 300px;
+  height: 30px;
+  outline: none;
+  font-size: 15px;
+  border: none;
+
+}
+.inp button{
+  width: 100px;
+  height: 30px;
+  color: white;
+  background-color: rgb(3, 165, 165);
+  border: none;
+  font-size: 15px;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+
+}
+.footer .footerText{
+  margin-inline: 85px;
+}
+.footerText p{
+  margin-top: 10px;
+}
+.knowUs{
+  background-color: rgb(6, 6, 52);
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 700px;
+  margin-top: 10px;
+  margin-left: 25%;
+  padding: 30px;
+}
+.container1 img{
+  width: 70%;
+}
+.text-content p{
+  margin-top: 10px;
+}
+.aboutUs{
+  display: none;
+}
+
+.contact{
+  display: none;
+}
+.contactus{
+  background-color: rgb(6, 6, 52);
+  color: white;
+  padding: 50px;
+}
+.contactme{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  width: 1000px;
+  margin-left: 240px;
+  margin-top: 5px;
+}
+
+.contactText img{
+  width: 30%;
+  height: 50%;
+}
+.contactText p{
+  margin: 10px;
+}
+.contactText h1{
+  margin-top: 50px;
+}
+.form{
+  text-align: center;
+  padding: 20px;
+  margin-top: 5%;
+}
+.form input{
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 15;
+}
+.form button{
+  width: 322px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: rgb(2, 88, 88);
+  font-size: 25px;
+  color: white;
+}
+
+.cart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin-left: 25%;
+  background-color: white;
+  margin-top: 20px;
+  display: none;
+}
+.cart img{
+  width: 40%;
+  padding: 10px;
+}
+.cartText{
+  margin-left: 10px;
+  padding: 10px;
+
+}
+.cartText h3{
+  margin: 10px;
+  margin-left: 5px;
+}
+.cartText p{
+  margin: 10px;
+}
+.btn button{
+  padding: 5px;
+  width: 120px;
+  margin-bottom: 10px;
+  background-color: #dc7405;
+  font-size: 15px;
+  color: white;
+  border: none;
+
+}
+.btnback {
+ padding: 5px;
+ width: 110px;
+ background-color: #026002;
+ color: white;
+ border: none;
+ font-size: 15px;
+ margin-top: 10px;
+}
